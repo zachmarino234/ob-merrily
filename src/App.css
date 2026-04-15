@@ -1,0 +1,60 @@
+.app {
+	--rule-gap: 2.25rem;
+	--margin-x: 1.75rem;
+	position: relative;
+	min-height: 100svh;
+	padding: clamp(1.5rem, 4vw, 3.5rem) clamp(1.25rem, 5vw, 5rem);
+	overflow: hidden;
+	background-color: #f3f2ef;
+	background-image:
+		linear-gradient(
+			to right,
+			transparent 0 calc(var(--margin-x) - 2px),
+			rgba(214, 54, 54, 0.9) calc(var(--margin-x) - 2px) calc(var(--margin-x) - 1px),
+			rgba(242, 96, 96, 0.9) calc(var(--margin-x) - 1px) var(--margin-x),
+			transparent var(--margin-x) 100%
+		),
+		repeating-linear-gradient(
+			to bottom,
+			transparent 0 calc(var(--rule-gap) - 1px),
+			rgba(82, 166, 212, 0.72) calc(var(--rule-gap) - 1px) var(--rule-gap)
+		),
+		radial-gradient(120% 95% at 50% 10%, rgba(255, 255, 255, 0.7) 0%, rgba(238, 236, 232, 0.85) 100%);
+	background-size: 100% 100%, 100% var(--rule-gap), 100% 100%;
+	background-repeat: no-repeat, repeat, no-repeat;
+}
+
+.app::before {
+	content: "";
+	position: absolute;
+	inset: 0;
+	pointer-events: none;
+	background-image:
+		url('./assets/Paper_Texture.jpeg'),
+		radial-gradient(120% 110% at 50% 20%, rgba(255, 255, 255, 0.24) 0%, rgba(0, 0, 0, 0.12) 100%);
+	background-size: cover, 100% 100%;
+	background-position: center center, center center;
+	background-repeat: no-repeat, no-repeat;
+	mix-blend-mode: multiply;
+	opacity: 0.52;
+	filter: contrast(118%) saturate(92%);
+}
+
+.app > * {
+	position: relative;
+	z-index: 1;
+}
+
+@media (min-width: 768px) {
+	.app {
+		--rule-gap: 2.85rem;
+		--margin-x: 3rem;
+	}
+}
+
+@media (min-width: 1200px) {
+	.app {
+		--rule-gap: 3.1rem;
+		--margin-x: 3.35rem;
+	}
+}
