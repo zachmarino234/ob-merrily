@@ -5,6 +5,7 @@ import zach from './assets/Zach_Sticker.png'
 import CastCrewGrid from './CastCrewGrid'
 import { castMembers, crewMembers, creativeMembers, pitMembers } from './data/castCrew'
 import { ArrowUp } from 'lucide-react'
+import { Analytics } from '@vercel/analytics/react'
 
 function App() {
   const [isScrolled, setIsScrolled] = useState(false)
@@ -126,6 +127,8 @@ function App() {
       >
         <ArrowUp />
       </button>
+
+      <Analytics />
     </>
   )
 }
