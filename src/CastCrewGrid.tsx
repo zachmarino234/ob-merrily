@@ -2,18 +2,17 @@
 
 import { useEffect, useState } from 'react'
 import { createPortal } from 'react-dom'
-import { castCrewMembers, type MemberCategory } from './data/castCrew.ts'
+import { type CastCrewMember } from './data/castCrew.ts'
 import { X } from 'lucide-react'
 
 type CastCrewGridProps = {
-    category: MemberCategory
+    members: CastCrewMember[]
 }
 
-function CastCrewGrid({ category }: CastCrewGridProps) {
+function CastCrewGrid({ members }: CastCrewGridProps) {
     const [activeMemberId, setActiveMemberId] = useState<string | null>(null)
-    const membersByCategory = castCrewMembers.filter((member) => member.category === category)
 
-    const activeMember = membersByCategory.find((member) => member.id === activeMemberId) ?? null
+    const activeMember = members.find((member) => member.id === activeMemberId) ?? null
 
     useEffect(() => {
         if (!activeMemberId) {
@@ -53,7 +52,7 @@ function CastCrewGrid({ category }: CastCrewGridProps) {
     return (
         <>
             <div className='grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3'>
-                {membersByCategory.map((member) => (
+                {members.map((member) => (
                     <button
                         key={member.id}
                         type='button'
