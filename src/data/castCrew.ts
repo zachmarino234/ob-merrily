@@ -479,7 +479,7 @@ export const creativeMembers: CastCrewMember[] = [
   {
     id: "grey-retz",
     name: "Grey Retz",
-    pronouns: "",
+    pronouns: "they/them",
     role: "Assistant Stage Manager",
     bio: "Grey is excited to work on Merrily we Roll Along!",
     imageSrc: greyRetzPortrait,
