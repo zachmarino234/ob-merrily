@@ -43,6 +43,7 @@ import brycenMartinPortrait from "../assets/headshots/creative/Brycen Martin.web
 import dylanGozdziewskiPortrait from "../assets/headshots/creative/Dylan Gozdziewski.webp";
 import eliseAllawayPortrait from "../assets/headshots/creative/Elise Allaway.webp";
 import emilyDahlPortrait from "../assets/headshots/creative/Emily Dahl.webp";
+import juDerraikPortrait from "../assets/headshots/creative/Ju Derraik.webp";
 import emilyWyrwaPortrait from "../assets/headshots/creative/Emily Wyrwa.webp";
 import georgeFurthPortrait from "../assets/headshots/creative/George Furth.webp";
 import greyRetzPortrait from "../assets/headshots/creative/Grey Retz.webp";
@@ -491,6 +492,14 @@ export const creativeMembers: CastCrewMember[] = [
     role: "Assistant Technical Director",
     bio: "Emily is extremely merry to be working on her 5th show with OB! She couldn't have asked for a merrier cast and crew, and it has been very merry every step of the way. She hopes the show leaves you just as merry as she is... but she doubts anyone can be merrier than her. Roll along!",
     imageSrc: emilyDahlPortrait,
+  },
+  {
+    id: "ju-derraik",
+    name: "Ju Derraik",
+    pronouns: "she/her",
+    role: "Intimacy Coordinator",
+    bio: "Ju is excited to work on Merrily we Roll Along!",
+    imageSrc: juDerraikPortrait,
   },
   {
     id: "zach-marino",
