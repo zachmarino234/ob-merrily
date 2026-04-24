@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import './App.css'
-import logo from './assets/Logo.png'
+import logo from './assets/Logo.webp'
 import zach from './assets/Zach_Sticker.png'
 import CastCrewGrid from './CastCrewGrid'
 import { castMembers, crewMembers, creativeMembers, pitMembers } from './data/castCrew'
@@ -34,6 +34,7 @@ function App() {
 
             It features music and lyrics by Stephen Sondheim and a book by George Furth. It is based on the 1934 play of the same name by George S. Kaufman and Moss Hart.
           </p>
+          <p><br/>Special thanks to <a href='https://www.altevintage.com/' target='_blank' rel='noopener noreferrer' className='text-blue-500 hover:text-blue-700 hover:underline'>Alte Vintage</a> for providing costumes to the production!</p>
         </section>
 
         <section className='md:px-24 lg:px-48 mb-10' id='Cast'>
