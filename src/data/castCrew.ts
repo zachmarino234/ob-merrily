@@ -1,4 +1,4 @@
-import benSiegelPortrait from "../assets/headshots/cast/Ben Siegal.webp";
+import benSiegelPortrait from "../assets/headshots/cast/Ben Siegel.webp";
 import brookeCrabtreePortrait from "../assets/headshots/cast/Brooke Crabtree.webp";
 import davidReyesPortrait from "../assets/headshots/cast/David Reyes.webp";
 import ellaMcdonnellPortrait from "../assets/headshots/cast/Ella McDonnell.webp";
@@ -98,7 +98,7 @@ export const castMembers: CastCrewMember[] = [
     id: "noa-burrows",
     name: "Noa Burrows",
     pronouns: "they/them",
-    role: "Mary Flynn",
+    role: "Mary Flynn and Fight Coordinator",
     bio: "Noa is beyond honored and excited to be making their BUOB debut in this sure fire genuine walkaway blockbuster lines down to Broadway boffola SENSATIONAL box office lalapalooza gargantuan hit!!! This has seriously been one of the most wonderful experiences of their life. Words cannot describe how grateful they are to the cast, crew, and creative team for being so welcoming and supportive throughout the entire process. Thank you all for letting them put the Mary in MARYly We Roll Along (so sorry)",
     imageSrc: noaBurrowsPortrait,
   },
@@ -130,7 +130,7 @@ export const castMembers: CastCrewMember[] = [
     id: "lauren-sanfanandre",
     name: "Lauren SanFanAndre",
     pronouns: "she/her",
-    role: "Meg Kincaid + Others",
+    role: "Meg Kincaid and Others",
     bio: "In her first, and last, student theater show, Lauren is so excited to have fun with her bestest friends in the whole world one last time! Still, we bumble our way through life's crazy labyrinth <3",
     imageSrc: laurenSanFanAndrePortrait,
   },
@@ -138,7 +138,7 @@ export const castMembers: CastCrewMember[] = [
     id: "sophie-sam-sampliner",
     name: 'Sophie "Sam" Sampliner',
     pronouns: "she/her",
-    role: "Frank Jr. / Ensemble",
+    role: "Frank Jr. and Fight Coordinator",
     bio: "Sam, a junior in CAS, studying Mathematics and Philosophy with a minor in Theatre Arts, is honored to be breaking out of her type cast with the young, exuberant, and straight(?) Frankie. She wants to thank the crew for being the awesomest, the pit folks for being so swag, her lovely castmates for such joy and friendship, and the best creative team for this opportunity to prove her youth. Here's to us, subito 7/8s, and the Pamana Canal. Big love xx",
     imageSrc: sophieSamSamplinerPortrait,
   },
@@ -203,7 +203,7 @@ export const castMembers: CastCrewMember[] = [
     name: "Sophie Freeman",
     pronouns: "she/her",
     role: "Bunker / Ensemble",
-    bio: "Bunker/Ensemble",
+    bio: "Sophie is excited to work on Merrily we Roll Along! ",
     imageSrc: sophieFreemanPortrait,
   },
 ];
@@ -269,7 +269,7 @@ export const crewMembers: CastCrewMember[] = [
     id: "erica-schwartz",
     name: "Erica Schwartz",
     pronouns: "she/her",
-    role: "Owner of Alte Vintage",
+    role: "Assistant Costumer and Owner of Alte Vintage",
     bio: "Erica is so grateful for the opportunity to help with one last OB show! She wants to thank Devin, Heather, Belen and Dylan for welcoming her with open arms and the lovely cast for handling her vintage pieces with love & care.",
     imageSrc: ericaSchwartzPortrait,
   },
