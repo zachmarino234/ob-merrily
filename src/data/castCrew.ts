@@ -204,7 +204,7 @@ export const castMembers: CastCrewMember[] = [
     name: "Sophie Freeman",
     pronouns: "she/her",
     role: "Bunker / Ensemble",
-    bio: "Sophie is excited to work on Merrily we Roll Along! ",
+    bio: "Sophie <3 this show and everyone who was a part of it. This is her 3rd show with OB, and her 13th & final show in BU extracurricular theater. That's crazy! But what a fabulous time. A big thank you to all those who made it such a fabulous time. Enjoy the show & much love!",
     imageSrc: sophieFreemanPortrait,
   },
 ];
@@ -480,7 +480,7 @@ export const creativeMembers: CastCrewMember[] = [
   {
     id: "grey-retz",
     name: "Grey Retz",
-    pronouns: "they/them",
+    pronouns: "he/they",
     role: "Assistant Stage Manager",
     bio: "Grey is excited to work on Merrily we Roll Along!",
     imageSrc: greyRetzPortrait,
